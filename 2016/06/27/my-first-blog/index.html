@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>my first blog | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="#include
+#include
+#include
+#define N 100void input();void search();void menu();void read();void show();void alter();void add();struct report{    int score;    char name[N];    char sex[N];    char num">
+<meta property="og:type" content="article">
+<meta property="og:title" content="my first blog">
+<meta property="og:url" content="http://yoursite.com/2016/06/27/my-first-blog/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#include
+#include
+#include
+#define N 100void input();void search();void menu();void read();void show();void alter();void add();struct report{    int score;    char name[N];    char sex[N];    char num">
+<meta property="og:updated_time" content="2016-06-27T12:24:43.377Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="my first blog">
+<meta name="twitter:description" content="#include
+#include
+#include
+#define N 100void input();void search();void menu();void read();void show();void alter();void add();struct report{    int score;    char name[N];    char sex[N];    char num">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-my-first-blog" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/06/27/my-first-blog/" class="article-date">
+  <time datetime="2016-06-27T02:18:00.000Z" itemprop="datePublished">2016-06-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      my first blog
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#include<stdio.h></stdio.h></p>
+<p>#include<stdlib.h></stdlib.h></p>
+<p>#include<windows.h></windows.h></p>
+<p>#define N 100<br>void input();<br>void search();<br>void menu();<br>void read();<br>void show();<br>void alter();<br>void add();<br>struct report<br>{<br>    int score;<br>    char name[N];<br>    char sex[N];<br>    char num[N];<br>    char class[N];<br>    struct report <em>next;<br>};//ѧ����Ϣ�ṹ��<br>struct report </em>head=NULL;<br>struct report <em>prev,</em>current;//�ṹ����ָ�룬prevָ��ǰһ�ṹ�壬currentָ����ǰ�ṹ��</p>
+<p>int main()<br>{<br>    read();//��ȡ�Ѵ�����<br>    menu();<br>    return 0;<br>}</p>
+<p>void menu()<br>{<br>    int n;<br>    system(“cls”);<br>    printf(“\n\n<strong><strong><strong><strong><strong><strong><strong><em>*</em></strong></strong></strong></strong></strong></strong></strong>ѧ������ϵͳ<strong><strong><strong><strong><strong><strong><strong><strong>*</strong></strong></strong></strong></strong></strong></strong></strong>\n”);<br>    printf(“\n\t1.����ѧ����Ϣ\t\t\t\t2.��ѯѧ����Ϣ\n\n\t3.�޸�ѧ����Ϣ\t\t\t\t4.��ʾѧ����Ϣ\n\n\t5.���ڼ�¼\t\t\t\t6.�˳�ϵͳ”);<br>    printf(“\n\n<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong>\n”);<br>    printf(“\n��ѡ�����Ĳ�����”);<br>    scanf(“%d”, &amp;n);<br>    if(n&gt;0&amp;&amp;n&lt;7)<br>    {<br>       switch(n)<br>        {<br>        case 1:input();break;<br>                case 2:search();break;<br>                case 3:alter();break;<br>                case 4:show();break;<br>        case 5:add(); break;<br>        case 6:exit(0);<br>        }<br>    }<br>    else<br>    {<br>       printf(“��������������\n”);<br>    }<br>    menu();<br>}</p>
+<p>void input()//�����ݱ������ļ���</p>
+<p>{<br>    current = (struct report <em>)malloc(sizeof(struct report));<br>    if (head == NULL)//��һ���ṹ<br>    {<br>        head = current;<br>    }<br>    else<br>    {<br>        prev-&gt;next = current;<br>    }<br>    current-&gt;next = NULL;<br>    prev = current;<br>    system(“cls”);<br>    printf(“\n<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>ѧ��������Ϣ<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>\n\n”);<br>        printf(“����������ѧ��������Ϣ:\n”);<br>        while(getchar()!=’\n’);<br>    printf(“\n\tѧ��������”); scanf(“%s”, current-&gt;name);<br>    printf(“\n\tѧ���Ա���”); scanf(“%s”, current-&gt;sex);<br>    printf(“\n\tѧ��ѧ�ţ�”); scanf(“%s”, current-&gt;num);<br>    printf(“\n\tѧ���༶��”); scanf(“%s”, current-&gt;class);<br>    printf(“\n\t���ڴ�����”); scanf(“%d”, &amp;current-&gt;score);//����ѧ��������Ϣ<br>    char ch;<br>    FILE </em>fp;<br>    if((fp=fopen(“file.txt”,”a+”))==NULL)<br>    {<br>        printf(“�ļ�����ʧ�ܣ�\n”);<br>        exit(1);<br>    }<br>    fprintf(fp,”%s\n”,current-&gt;name);<br>    fprintf(fp,”%s\n”,current-&gt;sex);<br>    fprintf(fp,”%s\n”,current-&gt;num);<br>    fprintf(fp,”%s\n”,current-&gt;class);<br>    fprintf(fp,”%d\n”,current-&gt;score);//��ѧ��������Ϣд���ļ�<br>    fclose(fp);<br>    printf(“\n\n\ty ��������\t�������������˵�……\t”);<br>    while (getchar() != ‘\n’);<br>    ch=getchar();<br>    if (ch == ‘y’)<br>        input();<br>    else<br>        menu();</p>
+<p>}</p>
+<p>void read()//��ȡ�ļ���������<br>{<br>    FILE <em>fp;<br>    if((fp=fopen(“file.txt”,”a+”))==NULL)<br>    {<br>        fprintf(stdout,”�����ļ�ʧ�ܣ�\n”);<br>        exit(1);<br>    }<br>    struct report temp;<br>    while (fscanf(fp, “%s %s %s %s %d”, temp.name, temp.sex, temp.num, temp.class, &amp;temp.score) == 5)//��ȡ�ļ����ݴ�������֮��<br>    {<br>        current = (struct report </em>)malloc(sizeof(struct report));<br>        *current = temp;<br>        if (head == NULL)//��һ���ṹ<br>        {<br>            head = current;<br>        }<br>        else<br>        {<br>            prev-&gt;next = current;<br>        }<br>        current-&gt;next = NULL;<br>        prev = current;</p>
+<pre><code>}
+fclose(fp);
+</code></pre><p>}</p>
+<p>void show()//��ʾѧ��������Ϣ����<br>{<br>    if(head==NULL)<br>    {<br>        printf(“\n���ݲ����ڣ�\n”);//��������Ϊ�գ��������ݲ�����<br>    }<br>    else<br>    {<br>        system(“cls”);<br>        printf(“\n<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>ѧ��������Ϣ<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>\n\n”);<br>        current = head;<br>        printf(“\t\t����\t\t�Ա�\t  ѧ��\t\t �༶\t      ���ڴ���\n\n”);<br>        while (current != NULL)<br>        {<br>            printf(“\t\t%-s\t\t%-s\t%-s\t%-s\t\t%-d\n”, current-&gt;name, current-&gt;sex, current-&gt;num, current-&gt;class,current-&gt;score );</p>
+<pre><code>        current = current-&gt;next;//ѭ������ѧ��������Ϣ
+    }
+}
+printf(&quot;\n\n���������������˵�......&quot;);
+getchar();
+getchar();
+menu();
+</code></pre><p>}</p>
+<p>void search()//����ѧ��������Ϣ����<br>{<br>    struct report searchx;<br>    system(“cls”);<br>    printf(“\n<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>ѧ��������Ϣ��ѯ<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>\n\n”);<br>    printf(“��ѡ�����ҷ�ʽ��\n\n\t1.��������\t2.ѧ�Ų���\t3.�༶����\t4.���ز˵�\t”);<br>    int n;<br>    scanf(“%d”,&amp;n);<br>    if(n==1)//����������ѧ����Ϣ<br>    {<br>        printf(“\n������ѧ��������”);<br>        scanf(“%s”,searchx.name);<br>        if(head==NULL)<br>        {<br>           printf(“���ݲ����ڣ�\n”);<br>        }<br>        current=head;<br>        printf(“\n<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>ѧ��������Ϣ��ѯ����<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>\n\n”);<br>        printf(“\t\t����\t\t�Ա�\t  ѧ��\t\t �༶\t      ���ڴ���\n\n”);<br>        while(current!=NULL)<br>        {<br>           if(strcmp(searchx.name,current-&gt;name)==0)<br>            {<br>                printf(“\t\t%-s\t\t%-s\t%-s\t%-s\t\t%-d\n”, current-&gt;name, current-&gt;sex, current-&gt;num, current-&gt;class, current-&gt;score);<br>             }<br>                current=current-&gt;next;<br>         }<br>     }<br>    if(n==2)//��ѧ�Ų���ѧ����Ϣ<br>    {<br>        printf(“\n\n������ѧ��ѧ�ţ�”);<br>        scanf(“%s”,searchx.num);<br>        if(head==NULL)<br>        {<br>            printf(“���ݲ����ڣ�\n”);<br>        }<br>        current=head;<br>        printf(“\n<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>ѧ��������Ϣ��ѯ����<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>\n\n”);<br>        printf(“\t\t����\t\t�Ա�\t  ѧ��\t\t �༶\t      ���ڴ���\n\n”);<br>        while(current!=NULL)<br>        {<br>           if(strcmp(searchx.num,current-&gt;num)==0)<br>            {<br>                printf(“\t\t%-s\t\t%-s\t%-s\t%-s\t\t%-d\n”, current-&gt;name, current-&gt;sex, current-&gt;num, current-&gt;class, current-&gt;score);<br>             }</p>
+<pre><code>        current=current-&gt;next;
+    }
+}
+if(n==3)
+{
+    printf(&quot;\n������ѧ���༶��&quot;);
+    scanf(&quot;%s&quot;, searchx.class);
+    if (head == NULL)
+    {
+        printf(&quot;���ݲ����ڣ�\n&quot;);
+    }
+    current = head;
+    printf(&quot;\n****************************************ѧ��������Ϣ��ѯ����****************************************\n\n&quot;);
+    printf(&quot;\t\t����\t\t�Ա�\t  ѧ��\t\t �༶\t      ���ڴ���\n\n&quot;);
+    while (current != NULL)
+    {
+        if (strcmp(searchx.class, current-&gt;class) == 0)
+        {
+            printf(&quot;\t\t%-s\t\t%-s\t%-s\t%-s\t\t%-d\n&quot;, current-&gt;name, current-&gt;sex, current-&gt;num, current-&gt;class, current-&gt;score);
+        }
+        current = current-&gt;next;
+    }
+
+}
+if(n == 4)
+     menu();
+if(n&lt;1||n&gt;4)
+printf(&quot;\n\n��������������\n\n&quot;); 
+printf(&quot;\n\ny ��������\t�������������˵�......\t&quot;);
+char ch;
+while (getchar() != &apos;\n&apos;);
+ch = getchar();
+if (ch == &apos;y&apos;)
+    search();
+else
+    menu();
+</code></pre><p>}</p>
+<p>void alter()//�޸�ѧ��������Ϣ����<br>{<br>    int mark = 0;<br>    struct report alterx;<br>    system(“cls”);<br>    printf(“\n<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>ѧ��������Ϣ�޸�<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>\n\n”);<br>    printf(“\n�������޸�ѧ������:”);<br>    scanf(“%s”,alterx.name);<br>    FILE *fp;<br>    if ((fp = fopen(“file.txt”, “w”)) == NULL)<br>    {<br>        printf(“���ܴ򿪸��ļ���\n”);<br>        exit(1);<br>    }<br>    current=head;<br>    printf(“\n\t\t����\t\t�Ա�\t  ѧ��\t\t �༶\t      ���ڴ���\n\n”);<br>    while(current!=NULL)<br>    {<br>        if(strcmp(alterx.name,current-&gt;name)==0)//�ҵ�Ҫ�޸�ѧ����Ϣ���޸�������Ϣ<br>        {<br>            mark = 1;<br>            printf(“\t\t%-s\t\t%-s\t%-s\t%-s\t\t%-d\n”, current-&gt;name, current-&gt;sex, current-&gt;num, current-&gt;class, current-&gt;score);<br>            printf(“\n\n�������µ�ѧ����Ϣ��\n”);<br>            while(getchar()!=’\n’);<br>            printf(“\n������”); scanf(“%s”, current-&gt;name);<br>            printf(“\n�Ա���”);scanf(“%s”, current-&gt;sex);<br>            printf(“\nѧ�ţ�”); scanf(“%s”, current-&gt;num);<br>            printf(“\n�༶��”); scanf(“%s”, current-&gt;class);<br>            printf(“\n���ڴ�����”); scanf(“%d”, &amp;current-&gt;score);<br>            fprintf(fp, “%s”, current-&gt;name); putc(‘\n’, fp);<br>            fprintf(fp,”%s”,current-&gt;sex); putc(‘\n’, fp);<br>            fprintf(fp,”%s”,current-&gt;num); putc(‘\n’, fp);<br>            fprintf(fp,”%s”,current-&gt;class); putc(‘\n’, fp);<br>            fprintf(fp, “%d”,current-&gt;score); putc(‘\n’, fp);<br>            current=current-&gt;next;<br>            continue;<br>           }<br>            fprintf(fp,”%s\n”,current-&gt;name);<br>            fprintf(fp,”%s\n”,current-&gt;sex);<br>            fprintf(fp,”%s\n”,current-&gt;num);<br>            fprintf(fp,”%s\n”,current-&gt;class);<br>            fprintf(fp,”%d\n”, current-&gt;score); //����ѧ����Ϣ���ֲ���<br>            current = current-&gt;next;<br>    }<br>    fclose(fp);<br>    char ch;<br>    printf(“\n\ny �����޸�\t�������������˵�……\t”);<br>    while (getchar() != ‘\n’);<br>    ch=getchar();<br>    if (ch == ‘y’)<br>        alter();<br>    else<br>        menu();</p>
+<p>}</p>
+<p>void add()//���ڼ�¼��ʹȱ��ѧ�����ڴ������䣬����ѧ�����ڴ�����1<br>{<br>    system(“cls”);<br>    printf(“\n<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>ѧ�����ڼ�¼<strong><strong><strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong></strong>\n\n”);<br>    int n, i;<br>    char array[100];<br>    printf(“\n\t������ȱ��ѧ��������”);//n��¼ȱ������<br>    scanf(“%d”, &amp;n);<br>    for (i = 0; i &lt; n; i++)<br>    {<br>        printf(“\n\t��������%d��ȱ��ѧ��ѧ�ţ�”, i + 1);<br>        scanf(“%s”, array);//����ȱ��ѧ��ѧ��<br>        current = head;<br>        while (current != NULL)<br>        {<br>            if (strcmp(array, current-&gt;num))<br>            {<br>                current-&gt;score++;//����ѧ�����ڴ�����һ<br>            }<br>            current = current-&gt;next;<br>        }<br>    }<br>    printf(“\n\n���ڼ�¼�ɹ�……\n\n�����⽨�������˵�……”);<br>    getchar();<br>    getchar();<br>}</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/06/27/my-first-blog/" data-id="cipyymyes0001uktpo3egu3w5" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/06/27/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/06/27/my-first-blog/">my first blog</a>
+          </li>
+        
+          <li>
+            <a href="/2016/06/27/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 John Doe<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
